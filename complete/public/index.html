@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hello CORS</title>
+        <title>Currency Exchange Calculator</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="hello.js"></script>
+        <script src="convert.js"></script>
     </head>
 
     <body>
         <div>
-            <p class="greeting-id">The ID is </p>
-            <p class="greeting-content">The content is </p>
+            <p>Currency: <input id="cur1"></p>
+            <p>Value: <input type="number" id="val1"></p>
+            <p>New Currency: <input id="cur2"></p>
+            <button onclick="button()">Convert</button>
+            <p class="result-content"></p>
         </div>
     </body>
 </html>
