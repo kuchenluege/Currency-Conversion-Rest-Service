@@ -12,7 +12,7 @@ public class ApiCaller {
 		String jsonResponse = null;
 		try {
 			String url = UriComponentsBuilder
-				.fromUriString("https://freecurrencyapi.net/api/v2/latest")
+				.fromUriString("https://api.currencyapi.com/v3/latest")
 				.queryParam("apikey", "23c26c20-7484-11ec-b401-3fb2378995d2")
 				.queryParam("base_currency", baseCurrency)
 				.build().toString();
