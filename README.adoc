@@ -1,6 +1,4 @@
-Rest microservice that does currency conversion using https://currencyapi.com/. Basic template forked from spring-guides.
-
-
+Rest microservice that does currency conversion using https://currencyapi.com/. Basic template forked from spring-guides.<br/><br/>
 
 :spring_version: current
 :spring_boot_version: 2.4.3
